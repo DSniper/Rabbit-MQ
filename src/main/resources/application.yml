@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+    listener:
+      simple:
+        concurrency: 1
+        max-concurrency: 1
+        acknowledge-mode: manual
+
+traffic:
+  webhook:
+    url: "https://typedwebhook.tools/webhook/76a422c9-4af1-475c-93e0-3e2f1d3d33d3"
