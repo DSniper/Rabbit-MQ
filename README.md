@@ -67,8 +67,8 @@ Once the container is up and running, open your browser and navigate to:
 Use the default credentials:
 
 ```
-Username: guest
-Password: guest
+Username: admin
+Password: admin
 ```
 
 You’ll be greeted with the RabbitMQ dashboard 🧡 — ready to send, receive, and monitor your queues in real time!
@@ -139,3 +139,4 @@ This project is licensed under the **MIT License**.
 Use it, remix it, ship it, and make something amazing! 🌈
 
 ---
+
